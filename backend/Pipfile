@@ -7,6 +7,13 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
 starlette = "*"
+pypdf = "*"
+ipython = "*"
+sentence-transformers = "*"
+langchain-community = "*"
+python-dotenv = "*"
+langchain-qdrant = "*"
+google-generativeai = "*"
 
 [dev-packages]
 
