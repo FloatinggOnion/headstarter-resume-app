@@ -48,8 +48,8 @@ function App() {
 
 		try {
 			const res = await axios.post(
-				// "https://headstarter-resume-app.onrender.com/upload",
-				"http://localhost:8000/upload",
+				"https://headstarter-resume-app.onrender.com/upload",
+				// "http://localhost:8000/upload",
 				formData
 			);
 			setSessionID(res.data.response?.session_id);
@@ -103,8 +103,8 @@ function App() {
 		console.log(file)
 		try {
 			const res = await axios.post(
-				// "https://headstarter-resume-app.onrender.com/query",
-				"http://localhost:8000/query",
+				"https://headstarter-resume-app.onrender.com/query",
+				// "http://localhost:8000/query",
 				{
 					query: input,
 				},
