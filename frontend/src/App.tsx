@@ -140,7 +140,7 @@ function App() {
 					className="absolute text-lg md:text-xl font-medium md:left-0 text-neutral-700 my-4 p-2 md:my-8 md:p-4"
 					style={{ marginTop: "80px" }}
 				>
-					<p>Smart Resume Editing | AI Driven</p>
+					<p>Smart Resume Reviews | AI Driven</p>
 				</div>
 			)}
 
@@ -167,7 +167,7 @@ function App() {
 					<div className="flex md:text-center justify-between md:justify-center md:gap-5 p-2 items-center">
 						<p>
 							Get the best version of your resume in minutes with
-							our AI resume editor
+							our AI resume reviewer
 						</p>
 						<div className="w-[20%] md:w-[10%] p-2">
 							<img
@@ -215,6 +215,7 @@ function App() {
 					{file && isUploaded && (
 						<p className="bg-[#FFF4F4] text-lg md:text-xl border-2 border-dashed border-[#A93030] p-2 rounded-lg">
 							File Uploaded Successfully!
+							<span className="text-sm">Worried about your data? Your resume is deleted 10 minutes after you get your review</span>
 						</p>
 					)}
 				</main>
