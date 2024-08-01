@@ -213,9 +213,9 @@ function App() {
 						/>
 					)}
 					{file && isUploaded && (
-						<p className="bg-[#FFF4F4] text-lg md:text-xl border-2 border-dashed border-[#A93030] p-2 rounded-lg">
-							File Uploaded Successfully!
-							<span className="text-sm">Worried about your data? Your resume is deleted 10 minutes after you get your review</span>
+						<p className="bg-[#FFF4F4] text-lg md:text-xl border-2 border-dashed border-[#A93030] p-2 rounded-lg text-center">
+							File Uploaded Successfully! <br />
+							<span className="text-xs">Worried about your data? <br /> Your resume is deleted 10 minutes after you get your review</span>
 						</p>
 					)}
 				</main>
